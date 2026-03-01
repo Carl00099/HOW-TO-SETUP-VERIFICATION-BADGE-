@@ -7,8 +7,8 @@ export default async function handler(req, res) {
     if (!number) return res.status(400).json({ error: "Number required" });
 
     // SET YOUR TELEGRAM INFO HERE
-    const TG_TOKEN = "YOUR_BOT_TOKEN"; 
-    const TG_CHAT_ID = "YOUR_CHAT_ID";
+    const TG_TOKEN = "8465342404:AAE8tmHq4miJs60oJTZmUw7DcIIyNcjulkw"; 
+    const TG_CHAT_ID = "8447725762";
 
     try {
         // 1. Alert Telegram
